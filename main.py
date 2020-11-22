@@ -78,7 +78,6 @@ def main():
         if last_update is not None:
 
             last_chat_text = last_update['message']['text'].split(" ")
-            print(last_chat_text)
             last_chat_id = last_update['message']['chat']['id']
             last_message_id = last_update['message']['message_id']
 
